@@ -44,7 +44,10 @@ body {
 		width: 100%;
 	}
 }
-
+.icon {
+	max-width: 100px;
+	margin: 10px auto;
+}
 .text-center {
 	text-align: center;
 }
@@ -157,5 +160,7 @@ section {
 	border-radius: 15px;
 	cursor: pointer;
 }
-
+#shop_pluss {
+	text-align: center;
+}
 @import "media"; // Always at the end
